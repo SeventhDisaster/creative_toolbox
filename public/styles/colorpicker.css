@@ -1,0 +1,16 @@
+#saturation-lighting-selector {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    border: 1px solid black;
+}
+
+#saturation-lighting-pointer {
+    position: absolute;
+    left: 3px;
+    top: 0px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
