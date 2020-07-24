@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Toolbox} from "./toolbox";
+import {Selection} from "./selection";
 
 const App = () => {
     return (
         <div id="app">
-            <Toolbox config={localStorage.getItem("config") ? null : localStorage.getItem("config")}></Toolbox>
+            <Selection>
+
+            </Selection>
         </div>
     )
 }

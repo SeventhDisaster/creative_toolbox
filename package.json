@@ -1,7 +1,7 @@
 {
-  "name": "creative_toolbox",
-  "version": "1.0.0",
-  "description": "A single page toolbox for creative usage",
+  "name": "Imagine",
+  "version": "1.0.1",
+  "description": "A ",
   "main": "index.js",
   "repository": "https://github.com/SeventhDisaster/creative_toolbox.git",
   "author": "Krister <37347340+SeventhDisaster@users.noreply.github.com>",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "webpack-dev-server": "3.10.3",
     "webpack-cli": "3.3.11",
-    "webpack": "4.42.0",
+    "webpack": "^4.42.0",
     "babel-loader": "8.0.6",
     "babel-jest": "25.1.0",
     "enzyme": "3.10.0", 
@@ -54,8 +54,6 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --open --mode development",
-    "test": "jest --coverage",
-    "start": "node src/server/server.js",
-    "run": "yarn build && yarn start"
+    "test": "jest --coverage"
   }
 }
