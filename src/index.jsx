@@ -5,9 +5,9 @@ import {Selection} from "./selection";
 const App = () => {
     return (
         <div id="app">
-            <Selection>
-
-            </Selection>
+            <h1 className={"fp-title"}>Imagine</h1>
+            <p className={"fp-desc"}>A tool to display information about images</p>
+            <Selection/>
         </div>
     )
 }
