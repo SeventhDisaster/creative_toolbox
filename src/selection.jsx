@@ -60,6 +60,7 @@ export class Selection extends React.Component{
 
                     <label className={"input file-button"} htmlFor={"fileupload"}>Upload image</label>
                     <input className={"file-upload"} onChange={this.setPreview} id="fileupload" type="file" size="60" placeholder="Upload an image" name="file" accept="image/png, image/jpeg" />
+                    <p>or</p>
                     <input className={`input input-text ${this.state.filled ? "unavailable" : ""}`} type="url" placeholder="Insert an image URL"/>
 
                     <button className={`scan-btn ${!this.state.data ? "unavailable" : ""}`} onClick={this.setImage}>Scan</button>
